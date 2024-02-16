@@ -1,0 +1,21 @@
+baseline_path: /home/dbreen/Documents/tddl/pretrained/f_mnist/logs/garipov/baselines/1647955843/gar_18_dNone_128_sgd_l0.1_g0.1_w0.0_sTrue/cnn_best.pth
+batch: 128
+data_dir: /home/dbreen/Documents/tddl/bigdata/f_mnist
+data_workers: 8
+dataset: fmnist
+decompose_weights: true
+epochs: 10
+factorization: cp
+gamma: 0
+hexsha: 1d45645d1d1e44740fd66f0e91366d9fe426bc86
+layers:
+- 2
+logdir: /home/dbreen/Documents/tddl/bigdata/f_mnist/logs/garipov/decomposed
+lr: 0.0001
+model_name: gar
+momentum: 0.9
+optimizer: sgd
+rank: '0.1'
+seed: 1708012509
+t: 1708012509
+weight_decay: 0

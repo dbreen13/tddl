@@ -1,0 +1,19 @@
+batch: 128
+data_dir: /bigdata/f_mnist
+data_workers: 8
+dataset: fmnist
+epochs: 100
+gamma: 0.1
+hexsha: b47e679a74fe35d4a98f3a900ee22f8ef6e335bc
+logdir: /bigdata/f_mnist/logs/garipov
+lr: 0.1
+milestones:
+- 30
+- 60
+- 90
+model_name: gar
+momentum: 0.9
+optimizer: sgd
+seed: 1647955843
+t: 1647955843
+weight_decay: 0

@@ -1,0 +1,1 @@
+{"best_epoch": 197, "best_train_acc": 0.9998, "best_valid_acc": 0.926, "best_valid_loss": 0.003253237196803093, "test_acc": 0.9223, "test_loss": 0.0034140398174524306, "n_param": 11173962, "model_name": "rn18_18_dNone_128_sgd_l0.1_g0.1_sTrue"}

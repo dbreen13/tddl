@@ -1,0 +1,17 @@
+batch: 128
+data_dir: /bigdata/cifar10
+data_workers: 4
+dataset: cifar10
+epochs: 200
+gamma: 0.1
+hexsha: f5d000c860d06ec6cd999bb62e44b23462bdc9d9
+logdir: /bigdata/cifar10/logs
+lr: 0.1
+milestones:
+- 100
+- 150
+model_name: rn18
+optimizer: sgd
+seed: 1646417743
+t: 1646417743
+weight_decay: 0.0001

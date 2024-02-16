@@ -1,0 +1,2 @@
+/bigdata/cifar-10-python.tar.gz filter=lfs diff=lfs merge=lfs -text
+pretrained filter=lfs diff=lfs merge=lfs -text

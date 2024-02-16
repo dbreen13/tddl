@@ -1,0 +1,19 @@
+baseline_path: /home/dbreen/Documents/tddl/pretrained/cifar10/logs/rn18/baselines/1646417743/rn18_18_dNone_128_sgd_l0.1_g0.1_sTrue/cnn_best.pth
+batch: 128
+data_dir: /home/dbreen/Documents/tddl/bigdata/cifar10
+data_workers: '8'
+dataset: cifar10
+decompose_weights: true
+epochs: 25
+factorization: cp
+gamma: 0
+hexsha: 1d45645d1d1e44740fd66f0e91366d9fe426bc86
+layers:
+- 19
+logdir: /home/dbreen/Documents/tddl/bigdata/cifar10/logs/rn18/decomposed
+lr: 1.0e-05
+model_name: rn18
+optimizer: adam
+rank: '0.1'
+seed: 1708079320
+t: 1708079320

@@ -1,0 +1,39 @@
+# model
+model_name: parn
+pretrained: "/home/dbreen/Documents/tddl/pretrained/f_mnist/logs/garipov/baselines/1647955843/gar_18_dNone_128_sgd_l0.1_g0.1_w0.0_sTrue/cnn_best"
+
+# training
+batch: 256
+epochs: 2
+lr: 1.0e-2
+gamma: 0.1
+
+# factorization
+factorization: tucker
+rank: 0.75
+layers:
+  - 1 
+  - 2 
+  - 3 
+  - 4 
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+
+# datalogging
+data_dir: "home/dbreen/Documents/tddl/bigdata" 
+logdir: "home/dbreen/Documents/tddl/bigdata" 
+
+# hardware
+data_workers: 2
+cuda: "3"
+cpu: "2"

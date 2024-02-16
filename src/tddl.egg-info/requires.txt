@@ -1,0 +1,16 @@
+tensorly==0.5.1
+tensorly-torch==0.2.0
+tqdm
+typer
+ray[tune]
+pyyaml
+GitPython
+PyYAML
+
+[dev]
+tensorboard
+jupyterlab
+pandas
+gitpython
+seaborn
+statsmodels

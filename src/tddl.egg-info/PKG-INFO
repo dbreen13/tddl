@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tddl
+Version: 0.0.1
+License-File: LICENSE
+Requires-Dist: tensorly==0.5.1
+Requires-Dist: tensorly-torch==0.2.0
+Requires-Dist: tqdm
+Requires-Dist: typer
+Requires-Dist: ray[tune]
+Requires-Dist: pyyaml
+Requires-Dist: GitPython
+Requires-Dist: PyYAML
+Provides-Extra: dev
+Requires-Dist: tensorboard; extra == "dev"
+Requires-Dist: jupyterlab; extra == "dev"
+Requires-Dist: pandas; extra == "dev"
+Requires-Dist: gitpython; extra == "dev"
+Requires-Dist: seaborn; extra == "dev"
+Requires-Dist: statsmodels; extra == "dev"
